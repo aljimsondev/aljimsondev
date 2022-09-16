@@ -13,7 +13,7 @@ I’m currently enhancing my programming skills to be a better developer someday
 
 Here's my several project/s you may visit:
 
-- [Spritesheet Simplify](https://aljimsondev.github.io/spritesheet-simplify/) - a 2D Sprites Merger for 2D game development
+- [Spritesheet Simplify](https://aljimsondev.github.io/spritesheet-simplify/) - A React.js 2D Sprites Merger for 2D game development.
 - [Online Barangay Certificate Issuance With QR CODE](https://www.barangayesperanza.com/) - A MERN(MongoDB, Express.js React, Nodejs) Stack application. This application aims to issue barangay certificates through online interaction  
 
 Feel free to reach me in my email   `aljimson.megrino@gmail.com` for any matters and lets discuss your interest. 
