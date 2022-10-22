@@ -19,13 +19,11 @@ import Footer from "../src/client/Components/Footer";
 //add right side navigation for sections
 //create
 //sections
-//! folder structure pages must be similar when using nextjs for cleaner structure
 /**
  * intro
  * what i do
  * programming skills
  * self projects
- * about self education
  * resume
  * blogs and links
  *

@@ -3,8 +3,7 @@
 }
 .menu-line {
   @apply h-[0.3rem] w-[40px]
-  my-[5px] duration-[0.3s] 
-  bg-white;
+  my-[5px] duration-[0.3s] bg-white;
 }
 
 .menu-line:nth-child(3) {

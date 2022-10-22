@@ -1,17 +1,16 @@
 import React from "react";
 import Link from "next/link";
 
-const NavbarLink: React.FC<{ name: string; link: string }> = ({
+const NavbarLink: React.FC<{ name: string; link: string; active: boolean }> = ({
   name,
   link,
+  active = false,
 }) => {
   return (
-    <div className="hidden relative group items-center mr-4 xs:flex cursor-pointer text-gray-900 dark:text-purple-500 px-3 py-1  overflow-hidden select-none">
+    <div className={`nav-link group ${active && "--active-link"}`}>
       <span className="nav-link-span"></span>
       <Link href={link}>
-        <p className="z-[1] text-gray-900 dark:text-gray-300 group-hover:text-purple-900 dark:group-hover:text-purple-500">
-          {name}
-        </p>
+        <p className="nav-link-text">{name}</p>
       </Link>
     </div>
   );

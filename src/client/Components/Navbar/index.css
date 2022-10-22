@@ -6,13 +6,13 @@
   dark:to-[#181818];
 }
 .navbar-base {
-  @apply container 
-  min-w-full max-w-full 
-  p-3 px-8 flex  
-  /* top-0
+  @apply container
+  top-0
   sticky
- */  
-  z-30
+  xs:relative
+  min-w-full max-w-full 
+  p-3 px-8 flex
+  z-[100]
   backdrop-blur-md
   md:backdrop-blur-none;
 }
@@ -43,4 +43,25 @@
       before:translate-x-20
       group-hover:before:translate-x-[-0.5rem]
       before:rounded-md;
+}
+
+.nav-link {
+  @apply hidden relative 
+  items-center mr-4 
+  xs:flex cursor-pointer 
+  text-gray-900 
+  dark:text-purple-500 
+  px-3 py-1 
+  overflow-hidden 
+  select-none;
+}
+.--active-link span {
+  @apply before:translate-x-[-0.5rem]
+  before:rounded-md;
+}
+.--active-link p {
+  @apply text-purple-900 dark:text-purple-500;
+}
+.nav-link-text {
+  @apply z-[1] text-gray-900 dark:text-gray-300 group-hover:text-purple-900 dark:group-hover:text-purple-500;
 }

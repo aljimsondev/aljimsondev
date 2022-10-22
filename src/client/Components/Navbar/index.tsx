@@ -6,25 +6,41 @@ import AnimatedMenuIcon from "../AnimatedIcon/MenuIcon";
 import MenuButton from "../Button/Menu";
 import { Context } from "../../Context/Store";
 
-const Navbar: React.FC = () => {
+export type NavbarProps = {
+  aboutActive?: boolean;
+  projectsActive?: boolean;
+  blogsActive?: boolean;
+  artworksActive?: boolean;
+};
+
+const Navbar: React.FC<NavbarProps> = ({
+  aboutActive = false,
+  artworksActive = false,
+  blogsActive = false,
+  projectsActive = false,
+}) => {
   const { dark, toogleTheme, openMenu, toogleMenu } = React.useContext(Context);
 
   const links = [
     {
       name: "About AL",
       link: "/about",
+      active: aboutActive,
     },
     {
       name: "Projects",
       link: "/projects",
+      active: projectsActive,
     },
     {
       name: "Blogs",
       link: "/blogs",
+      active: blogsActive,
     },
     {
       name: "Artworks",
       link: "/artworks",
+      active: artworksActive,
     },
   ];
 
@@ -58,7 +74,12 @@ const Navbar: React.FC = () => {
       <div className="navbar-content">
         {links.map((data, index) => {
           return (
-            <Link link={data.link} name={data.name} key={index + data.name} />
+            <Link
+              link={data.link}
+              name={data.name}
+              active={data.active}
+              key={index + data.name}
+            />
           );
         })}
         <div className="hidden xs:block">

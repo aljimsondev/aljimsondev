@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from "../../src/client/Components/Navbar";
 import Layout from "../../src/client/Layout";
 
-function Blogs() {
+function Projects() {
   return (
     <Layout>
       <div className="root">
-        <Navbar blogsActive />
+        <Navbar projectsActive />
       </div>
     </Layout>
   );
 }
 
-export default Blogs;
+export default Projects;

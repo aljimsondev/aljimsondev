@@ -7,3 +7,9 @@
   backdrop-blur-md 
   text-base;
 }
+.footer-text {
+  @apply text-sm;
+}
+.footer-credits {
+  @apply text-xs;
+}
