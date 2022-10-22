@@ -1,0 +1,67 @@
+/*===========sidebar===========*/
+.sidebar {
+  @apply h-[65%]
+  flex items-center 
+  ml-8
+  justify-center
+  relative flex-col
+  before:h-full
+  before:absolute
+  before:w-[5px]
+  before:rounded-[20px]
+  before:bg-gradient-to-b 
+  before:from-[#990077] 
+  before:to-[#e40ab400];
+}
+.sidebar-button-base {
+  @apply relative inline-flex items-center;
+}
+
+.sidebar-button {
+  @apply w-[50px] h-[50px] 
+  rounded-full 
+  bg-[#f1f1f1] dark:bg-[#181818] 
+  hover:bg-white
+  hover:dark:bg-[#242424] 
+  text-black dark:text-purple-700
+  hover:dark:text-purple-500
+  my-1 flex
+  items-center justify-center text-xl 
+  cursor-auto;
+
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.fig-content-base {
+  @apply relative
+  flex items-center
+  rounded-md
+  bg-black 
+    dark:bg-white
+    before:bg-black 
+    before:dark:bg-white
+    before:absolute
+    before:left-[-7px]
+    before:h-[15px]
+    before:w-[15px]
+    before:rotate-[45deg];
+}
+.fig-content {
+  @apply p-2 
+  bg-black 
+  dark:bg-white
+  rounded-md
+  flex items-center 
+  justify-between
+  z-10;
+}
+.fig-button-copy {
+  @apply p-1 
+  bg-black dark:bg-gray-200 
+  hover:bg-slate-900 hover:dark:bg-gray-300
+  ml-3 
+  rounded-md 
+  cursor-auto
+  text-purple-600 
+  dark:text-purple-900;
+}

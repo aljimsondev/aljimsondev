@@ -1,0 +1,46 @@
+.bg-linear-btn {
+  @apply bg-gradient-to-b 
+  from-[#998e8e] 
+  to-[#999191] 
+  dark:from-[#1b1b1b] 
+  dark:to-[#181818];
+}
+.navbar-base {
+  @apply container 
+  min-w-full max-w-full 
+  p-3 px-8 flex  
+  /* top-0
+  sticky
+ */  
+  z-30
+  backdrop-blur-md
+  md:backdrop-blur-none;
+}
+.navbar-content {
+  @apply grow flex items-center justify-end;
+}
+.nav-link-icon {
+  @apply mr-1 rounded-full 
+  bg-linear-btn 
+  flex items-center 
+  justify-center 
+  min-w-[30px] min-h-[30px] 
+  text-slate-900
+  dark:text-purple-500;
+}
+.nav-link-span {
+  @apply absolute
+      min-w-full
+      min-h-full
+      flex 
+      items-end 
+      justify-end
+      before:absolute 
+      before:duration-700 
+      before:min-h-[5px]
+      before:min-w-full
+      before:bg-purple-700 
+      before:translate-x-20
+      group-hover:before:translate-x-[-0.5rem]
+      before:rounded-md;
+}

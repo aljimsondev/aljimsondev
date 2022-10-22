@@ -1,0 +1,14 @@
+.bg-linear-card {
+  @apply bg-gradient-to-b 
+  from-[#ffffff7c] 
+  to-[#ebebeb46] 
+  dark:bg-gradient-to-b 
+  dark:from-[#ffffff00] 
+  dark:to-[#3f39393b]
+  backdrop-blur-md
+  border-t-2
+  border-t-[#ffffff80]
+  border-l-[1px]
+  border-l-[#ffffff80]
+  duration-75;
+}

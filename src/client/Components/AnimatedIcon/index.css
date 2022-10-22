@@ -1,0 +1,23 @@
+.menu-icon-base {
+  @apply relative overflow-hidden;
+}
+.menu-line {
+  @apply h-[0.3rem] w-[40px]
+  my-[5px] duration-[0.3s] 
+  bg-white;
+}
+
+.menu-line:nth-child(3) {
+  transition-delay: 100ms;
+}
+
+.active-menu .menu-line:not(:nth-child(1), :last-child) {
+  transform: translateX(-60px) translateY(-50px) rotate(90deg);
+  opacity: 0;
+}
+.active-menu .menu-line:nth-child(1) {
+  transform: rotate(40deg) translateY(10px) translateX(10px);
+}
+.active-menu .menu-line:last-child {
+  transform: rotate(-40deg) translateY(-10px) translateX(10px);
+}

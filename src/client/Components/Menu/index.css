@@ -1,0 +1,16 @@
+.menu-base {
+  @apply w-[100vw] 
+  max-h-[100vh] min-h-[100vh] 
+  absolute bottom-0 left-0 
+  bg-[rgba(0,0,0,0.4)] 
+  z-30 backdrop-blur-xl flex;
+}
+.menu {
+  @apply relative flex-1  p-3 px-8;
+}
+.menu-content {
+  @apply bg-[#1513137a] backdrop-blur-xl;
+}
+.menu-head {
+  @apply flex items-start justify-between;
+}

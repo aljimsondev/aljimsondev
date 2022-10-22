@@ -1,0 +1,44 @@
+/*=======switch==========*/
+.switch-base {
+  @apply flex items-center 
+    bg-white
+      rounded-full relative
+      transition
+      delay-[120ms];
+}
+.switch-thumb {
+  @apply flex items-center justify-center 
+  bg-[#66006E] 
+  min-w-[var(--SWITCH-THUMB-SIZE)] 
+  min-h-[var(--SWITCH-THUMB-SIZE)] 
+    max-w-[var(--SWITCH-THUMB-SIZE)] 
+    max-h-[var(--SWITCH-THUMB-SIZE)] 
+    rounded-full 
+    absolute 
+    left-[-2px]
+    transition 
+    text-white;
+}
+.switch-input-base {
+  @apply flex items-center 
+  min-w-[var(--SWITCH-BASE-WIDTH)]
+    overflow-hidden 
+    min-h-[var(--SWITCH-BASE-HEIGHT)]
+    max-h-[var(--SWITCH-BASE-HEIGHT)] 
+    z-[1] !important;
+}
+.switch {
+  @apply min-w-full 
+    max-w-full min-h-[100px]  
+    cursor-pointer
+     opacity-0 !important;
+}
+.switch-active .switch-thumb {
+  transform: translateX(
+    calc(var(--SWITCH-BASE-WIDTH) - var(--SWITCH-THUMB-SIZE) + 4px)
+  );
+  @apply text-orange-500;
+}
+.switch-active {
+  @apply bg-gray-800;
+}

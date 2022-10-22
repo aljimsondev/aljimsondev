@@ -1,0 +1,154 @@
+/*imports*/
+@import url("../Components/Switch/index.css");
+@import url("../Components/Sidebar/index.css");
+@import url("../Components/Card/index.css");
+@import url("../Components/Logo/index.css");
+@import url("../Components/Navbar/index.css");
+@import url("../Components/Menu/index.css");
+@import url("../Components/AnimatedIcon/index.css");
+@import url("../Components/Button/index.css");
+@import url("../Components/Footer/index.css");
+
+@font-face {
+  font-family: "BebasNeueu";
+  src: url("../../../public/Assets/fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../../../public/Assets/fonts/Roboto-Regular.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --SWITCH-THUMB-SIZE: 30px;
+  --SWITCH-BASE-HEIGHT: 20px;
+  --SWITCH-BASE-WIDTH: 50px;
+}
+
+.intro-btn {
+  @apply text-purple-700 
+    px-10 py-2 
+    rounded-md 
+    mt-10
+    font-semibold 
+    ring-2 
+    ring-purple-600 
+    hover:bg-purple-900 
+    hover:text-purple-100;
+}
+.profile-picture-base {
+  @apply bg-opaque m-4 min-h-[300px] max-h-[300px] min-w-[300px] max-w-[300px] backdrop-blur-sm;
+}
+
+.intro-section {
+  @apply min-h-[90vh]
+    flex items-center 
+    md:items-start justify-center 
+    flex-col  px-3 md:px-0;
+}
+
+/*=========text============*/
+.app-text-color {
+  @apply text-gray-900 dark:text-gray-300;
+}
+
+.text-color-title {
+  @apply text-gray-900 dark:text-gray-300 text-2xl md:text-3xl leading-loose font-bold;
+}
+
+.app-text-color-dark {
+  @apply text-xs text-white dark:text-gray-800;
+}
+/*======app custom styling==========*/
+.root {
+  @apply bg-gray-300 dark:bg-black 
+  min-w-full min-h-[100vh]
+  max-w-full max-h-[100vh]
+  overflow-auto
+  overflow-x-hidden 
+  relative flex flex-col
+  items-center
+  z-50;
+}
+
+.root::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.root::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.root::-webkit-scrollbar-corner {
+  border-radius: 10px;
+}
+.root::-webkit-scrollbar-thumb {
+  @apply bg-[#3b0546];
+  outline: 1px solid rgb(104, 15, 116);
+}
+
+.bg-linear-abs {
+  min-height: 500px;
+  min-width: 500px;
+  background: linear-gradient(
+    188.43deg,
+    #93009f 6.45%,
+    rgba(0, 0, 0, 0) 78.26%
+  );
+  border-radius: 20px;
+  transform: rotate(-24.03deg);
+}
+
+.bg-opaque {
+  @apply bg-gradient-to-br 
+    from-[#00000000] 
+    to-[#000000d5] 
+    dark:from-[#ececec9f] 
+    dark:to-[#3333339f]
+    rounded-full;
+  --smooth-corners: 6.7;
+}
+
+.text-linear {
+  background: linear-gradient(180deg, #6f0379 100%, rgba(198, 0, 216, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-linear-dark {
+  background: linear-gradient(
+    180deg,
+    #59165f 36.68%,
+    rgba(198, 0, 216, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.abs-card {
+  @apply absolute w-[923.91px] h-[984.47px]
+    pointer-events-none
+    top-[-200px]
+    right-[-210px]
+    md:top-[200px];
+}
+
+.abs-container1 {
+  @apply flex 
+  items-start
+  h-[100vh] w-[100vw] 
+  absolute 
+  top-0 pointer-events-none
+  select-none
+  z-[1];
+}
+
+@supports (mask-image: paint(smooth-corners)) {
+  .bg-opaque {
+    mask-image: paint(smooth-corners);
+    --smooth-corners: 1.8;
+  }
+}
