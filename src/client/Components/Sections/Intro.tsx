@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 function Intro() {
@@ -33,7 +34,7 @@ function Intro() {
       </div>
       <div className="flex items-end justify-center md:items-start col-span-full md:col-span-1 order-first md:order-last">
         <div className="profile-picture-base">
-          <img className="flex" src="" alt="profile-picture" />
+          <Image className="flex" src="" alt="profile-picture" />
         </div>
       </div>
     </div>

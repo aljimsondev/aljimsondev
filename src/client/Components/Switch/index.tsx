@@ -25,13 +25,19 @@ const Switch: React.FC<{
   return (
     <div ref={switchRef} className="switch-base relative select-none">
       <div className="flex absolute w-full h-full items-center">
-        <Image src={switchBorder} layout="fixed" />
+        <Image src={switchBorder} layout="fixed" alt="switch-border" />
       </div>
       <span className="switch-thumb">
         <i className="absolute">
           {active ? <HiSun size={20} /> : <HiMoon size={20} />}
         </i>
-        <Image src={thumbBorder} layout="fixed" width="100%" height="100%" />
+        <Image
+          src={thumbBorder}
+          layout="fixed"
+          alt="thumb-border"
+          width="100%"
+          height="100%"
+        />
       </span>
       <div className="switch-input-base">
         <input onChange={toogle} className="switch" type="checkbox" />

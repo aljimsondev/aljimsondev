@@ -13,7 +13,7 @@ const LayoutWithBackground: React.FC<{
           imagePosition === "right" ? "justify-end" : "justify-start"
         }`}
       >
-        <Image src={source} />
+        <Image src={source} alt="bg-image" />
       </div>
       <div className="container min-w-screen-md max-w-screen-md z-10">
         {children}

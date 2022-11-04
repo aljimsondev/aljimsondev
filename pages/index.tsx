@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       <div className="root">
         <div className="abs-card">
           {/**absolute card 1 */}
-          <Image src={abs1} layout="fixed" priority />
+          <Image src={abs1} alt="abs-card" layout="fixed" priority />
         </div>
         <Navbar />
         <div className="container min-w-screen-md max-w-screen-md">
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         </div>
         <div className="w-full max-w-full min-h-[80vh] relative flex items-center justify-start flex-col">
           <div className="container min-w-screen-md max-w-screen-md min-h-full">
-            <h1 className="text-4xl app-text-color">What's next?</h1>
+            <h1 className="text-4xl app-text-color">What&apos;s next?</h1>
             <div className="bg-blue-700 p-5 rounded-lg mt-5">
               <h1 className="app-text-color rounded-lg text-2xl font-semibold my-2">
                 Start a project
@@ -55,8 +55,8 @@ const Home: NextPage = () => {
                 Interesting in creating wonderful things?
               </p>
               <p className="app-text-color text-xl">
-                Don't be a stranger and hit me with these contact links. I'd
-                like to hear from you and discuss things out.
+                Don&apos;t be a stranger and hit me with these contact links.
+                I'd like to hear from you and discuss things out.
               </p>
             </div>
           </div>
