@@ -56,7 +56,7 @@ const Home: NextPage = () => {
               </p>
               <p className="app-text-color text-xl">
                 Don&apos;t be a stranger and hit me with these contact links.
-                I'd like to hear from you and discuss things out.
+                I&apos;d like to hear from you and discuss things out.
               </p>
             </div>
           </div>
