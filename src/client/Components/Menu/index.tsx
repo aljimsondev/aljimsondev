@@ -8,10 +8,10 @@ import Stroke from "../Stroke";
 import Switch from "../Switch";
 
 const Menu: React.FC<{
-  aboutActive: boolean;
-  projectsActive: boolean;
-  blogsActive: boolean;
-  artworksActive: boolean;
+  aboutActive?: boolean;
+  projectsActive?: boolean;
+  blogsActive?: boolean;
+  artworksActive?: boolean;
 }> = ({ aboutActive, artworksActive, blogsActive, projectsActive }) => {
   const { openMenu, toogleMenu } = React.useContext(Context);
 
@@ -22,22 +22,22 @@ const Menu: React.FC<{
     {
       name: "About AL",
       link: "/about",
-      active: aboutActive,
+      active: aboutActive || false,
     },
     {
       name: "Projects",
       link: "/projects",
-      active: projectsActive,
+      active: projectsActive || false,
     },
     {
       name: "Blogs",
       link: "/blogs",
-      active: blogsActive,
+      active: blogsActive || false,
     },
     {
       name: "Artworks",
       link: "/artworks",
-      active: artworksActive,
+      active: artworksActive || false,
     },
   ];
   return (
