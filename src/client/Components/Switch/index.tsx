@@ -16,10 +16,6 @@ const Switch: React.FC<{
     } else {
       switchRef.current?.classList.remove("switch-active");
     }
-    return () => {
-      //clean up
-      switchRef.current?.classList.remove("switch-active");
-    };
   }, [active]);
 
   return (
