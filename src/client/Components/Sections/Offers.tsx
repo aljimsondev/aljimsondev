@@ -5,6 +5,7 @@ import restapiImg from "../../../../public/Assets/images/api.png";
 import gamedevImg from "../../../../public/Assets/images/game-dev.png";
 import uiImg from "../../../../public/Assets/images/social.png";
 import seoImg from "../../../../public/Assets/images/seo.png";
+import appDevImg from "../../../../public/Assets/images/app-dev.png";
 
 function Offers() {
   const offers = [
@@ -27,7 +28,7 @@ function Offers() {
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda obcaecati harum fugit ducimus eveniet eos ab illo in nostrum.",
     },
     {
-      image: gamedevImg,
+      image: appDevImg,
       title: "Android Apps Development",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero assumenda obcaecati harum fugit ducimus eveniet eos ab illo in nostrum.",
