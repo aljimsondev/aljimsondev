@@ -23,7 +23,7 @@ const Switch: React.FC<{
   }, [active]);
 
   return (
-    <div ref={switchRef} className="switch-base relative mx-5 select-none">
+    <div ref={switchRef} className="switch-base relative select-none">
       <div className="flex absolute w-full h-full items-center">
         <Image src={switchBorder} layout="fixed" />
       </div>

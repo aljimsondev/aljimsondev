@@ -45,11 +45,23 @@ const Home: NextPage = () => {
           <Offers />
         </div>
         <div className="w-full max-w-full min-h-[80vh] relative flex items-center justify-start flex-col">
+          <div className="container min-w-screen-md max-w-screen-md min-h-full">
+            <h1 className="text-4xl app-text-color">What's next?</h1>
+            <div className="bg-blue-700 p-5 rounded-lg mt-5">
+              <h1 className="app-text-color rounded-lg text-2xl font-semibold my-2">
+                Start a project
+              </h1>
+              <p className="app-text-color text-xl">
+                Interesting in creating wonderful things?
+              </p>
+              <p className="app-text-color text-xl">
+                Don't be a stranger and hit me with these contact links. I'd
+                like to hear from you and discuss things out.
+              </p>
+            </div>
+          </div>
           <div className="absolute bottom-0 pointer-events-none">
             <Image src={footerWorld} layout="fixed" alt="world" />
-          </div>
-          <div className="container min-w-screen-md max-w-screen-md min-h-full bg-slate-400">
-            <h1 className="text-lg">What's next?</h1>
           </div>
           <Footer />
         </div>
