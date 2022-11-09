@@ -45,7 +45,7 @@ const Menu: React.FC<{
       <div className="menu">
         <Logo />
         <div className="menu-head">
-          <div className="absolute right-0 top-0 m-4 mr-[2.5rem]">
+          <div className="absolute right-0 top-0 m-2 mr-[1.2rem]">
             <MenuButton
               onClick={handleToogleMenu}
               icon={<AnimatedMenuIcon active={!openMenu} />}
@@ -64,16 +64,10 @@ const Menu: React.FC<{
             <Stroke />
             <ul className="my-2">
               {links.map((data, index) => {
-                return (
-                  <Link
-                    link={data.link}
-                    name={data.name}
-                    active={data.active}
-                    key={index + data.name}
-                  />
-                );
+                return <li>{data.name}</li>;
               })}
             </ul>
+            <Stroke />
           </div>
         </div>
       </div>

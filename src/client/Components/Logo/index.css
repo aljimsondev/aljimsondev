@@ -1,5 +1,6 @@
 .logo-base {
-  @apply w-[60px] h-[60px] 
+  @apply w-[40px] h-[40px]
+  md:w-[60px] md:h-[60px] 
   rounded-lg bg-[#1B011E]
   p-1
   cursor-pointer

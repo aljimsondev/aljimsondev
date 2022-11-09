@@ -2,7 +2,7 @@
   @apply absolute bottom-0  
   min-w-full 
   text-white text-center 
-  p-2 
+  p-2 z-30
   bg-[rgba(0,0,0,0.5)] dark:bg-[rgba(255,255,255,0.1)] 
   backdrop-blur-md 
   text-base;

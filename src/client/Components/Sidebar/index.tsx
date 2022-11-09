@@ -37,7 +37,7 @@ const Sidebar: React.FC<{}> = ({}) => {
     },
   ];
   return (
-    <aside className="hidden xs:flex fixed left-0 h-[100vh] items-center justify-center">
+    <aside className="hidden xs:flex fixed left-0 h-[100vh] items-center justify-center z-20">
       <div className="sidebar">
         {data.map((data, index) => {
           return (

@@ -11,7 +11,10 @@
   sticky
   xs:relative
   min-w-full max-w-full 
-  p-3 px-8 flex
+  px-3
+  py-2
+  xs:px-8 
+  flex
   z-[100]
   backdrop-blur-md
   md:backdrop-blur-none;

@@ -2,8 +2,8 @@
   @apply relative overflow-hidden;
 }
 .menu-line {
-  @apply h-[0.3rem] w-[40px]
-  my-[5px] duration-[0.3s] bg-white;
+  @apply h-[0.2rem] w-[30px]
+  my-[5px] duration-[0.3s] bg-white border-black border-[1px];
 }
 
 .menu-line:nth-child(3) {
@@ -15,7 +15,7 @@
   opacity: 0;
 }
 .active-menu .menu-line:nth-child(1) {
-  transform: rotate(40deg) translateY(10px) translateX(10px);
+  transform: rotate(40deg) translateY(10px) translateX(5px);
 }
 .active-menu .menu-line:last-child {
   transform: rotate(-40deg) translateY(-10px) translateX(10px);

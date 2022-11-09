@@ -3,7 +3,7 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="grid gap-5 grid-cols-1 xs:grid-cols-2 md:grid-cols-3 min-h-[90vh] backdrop-blur-lg md:backdrop-blur-none">
+    <div className="grid gap-5 grid-cols-1 xs:grid-cols-2 md:grid-cols-3 min-h-[90vh] backdrop-blur-lg md:backdrop-blur-none px-3 md:px-0">
       <div className="col-span-full text-center flex items-center justify-center md:items-end md:justify-start">
         <h1 className="text-2xl xs:text-5xl md:text-6xl  text-linear font-bold">
           Build something passionately
