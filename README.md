@@ -1,22 +1,49 @@
-Hi there! Glad you have time to visit here!
+👋 Hello, I'm Al Jimson A. Megriño
+Frontend Developer | JavaScript & React Enthusiast | Game Dev Hobbyist
+📍 Philippines | 🎂 28 years old
 
-I am `Al Jimson A. Megriño`, 25 years of age from the Philippines. I am a Frontend Developer skilled in `Javascript` and `React`.
-I've been doing web development and other cool stuff with Javascript.
-I’m interested in 
-- Arts
-- Video Games
-- Basketball
-- Game development
+🛠️ Skills & Tools
+- Frontend: JavaScript, React, Next.js, HTML/CSS
 
+- Backend: Node.js, Express, Nestjs
 
-I’m currently enhancing my programming skills to be a better developer someday.
+- Databases: MongoDB, Firebase
 
-Here's my several project/s you may visit:
+- Game Dev: 2D Spritesheets, Canvas API
 
-- [Spritesheet Simplify](https://aljimsondev.github.io/spritesheet-simplify/) - A React.js 2D Spritesheet generator for 2D game development. It is an alternative for Texture Packer for those who are having trouble installing Texture Packer in local machines.
-- [Online Barangay Certificate Issuance With QR CODE](https://www.barangayesperanza.com/) - A MERN(MongoDB, Express.js React, Nodejs) Stack application. This application aims to issue barangay certificates through online interaction  
+- Tools: Git, Vercel, Figma
 
-Feel free to reach me in my email   `aljimson.megrino@gmail.com` for any matters and lets discuss your interest. 
+🚀 Featured Projects
+
+- [Spritesheet Simplify](https://aljimsondev.github.io/spritesheet-simplify/)
+⚡ React.js 2D Spritesheet Generator
+  - Alternative to Texture Packer for indie game developers.
+  - Simplifies sprite animation workflows for local development.
+  - Tech: React, Canvas API
+ 
+- [Online Barangay Certificate Issuance With QR CODE](https://www.barangayesperanza.com/) 🏛️ MERN Stack (MongoDB, Express, React, Node.js)
+  - Digitized barangay certificate issuance with QR verification.
+  - Reduced in-person requests by 70% (hypothetical metric – adjust if real).
+  - Tech: MERN, QR Code Integration
+ 
+🌟 Interests & Hobbies
+
+- 🎨 Arts & Design: Pixel art, UI/UX
+- 🎮 Video Games
+- 🏀 Basketball
+- 🕹️ Game Development
+
+📈 Current Focus
+
+- Leveling up my technical skills.
+- Exploring other tech stacks
+
+📫 Let's Connect!
+- [Linkedin](https://www.linkedin.com/in/al-jimson-megrino)
+- aljimson.megrino@gmail.com
+
+Thanks for stopping by! ✨
+"Code is art – debug with passion."
 
 <!---
 aljimsondev/aljimsondev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
