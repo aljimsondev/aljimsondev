@@ -23,7 +23,7 @@ Frontend Developer | JavaScript & React Enthusiast | Game Dev Hobbyist
  
 - [Online Barangay Certificate Issuance With QR CODE](https://www.barangayesperanza.com/) 🏛️ MERN Stack (MongoDB, Express, React, Node.js)
   - Digitized barangay certificate issuance with QR verification.
-  - Reduced in-person requests by 70% (hypothetical metric – adjust if real).
+  - Reduced in-person requests by 70%
   - Tech: MERN, QR Code Integration
  
 🌟 Interests & Hobbies
