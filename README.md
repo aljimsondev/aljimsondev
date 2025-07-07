@@ -15,7 +15,7 @@ Frontend Developer | JavaScript & React Enthusiast | Game Dev Hobbyist
 
 🚀 Featured Projects
 
-- [Spritesheet Simplify](https://aljimsondev.github.io/spritesheet-simplify/)
+- [Spritesheet Simplify](https://spritesheet-simplify.aljimsondev.site/)
 ⚡ React.js 2D Spritesheet Generator
   - Alternative to Texture Packer for indie game developers.
   - Simplifies sprite animation workflows for local development.
